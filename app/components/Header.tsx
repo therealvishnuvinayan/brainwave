@@ -36,7 +36,7 @@ const Header = () => {
   };
 
   const handleCloseNavigation = () => {
-    if(!openNavigation) return;
+    if (!openNavigation) return;
     enablePageScroll();
     setOpenNavigation(false);
   };

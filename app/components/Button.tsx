@@ -8,7 +8,7 @@ interface ButtonProps {
   onClick?: () => void;
   children?: React.ReactNode;
   px?: string;
-  white?: string;
+  white?: boolean;
 }
 
 const Button = ({
