@@ -1,6 +1,6 @@
 "use client";
 
-import ButtonSvg from "../assets/svg/ButtonSvg";
+import ButtonSvg from "../../public/assets/svg/ButtonSvg";
 
 interface ButtonProps {
   className?: string;

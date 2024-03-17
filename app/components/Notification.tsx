@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { notificationImages } from "../constants";
-import { notification1 } from "../assets";
+import { notification1 } from "../../public/assets";
 
 interface NotificationProps {
   className: string;

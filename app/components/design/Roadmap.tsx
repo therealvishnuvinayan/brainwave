@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import { gradient } from "../../assets";
+import Image from "next/image";
+import { gradient } from "../../../public/assets";
 
 export const Gradient = () => {
   return (
