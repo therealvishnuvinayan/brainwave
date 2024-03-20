@@ -40,7 +40,7 @@ const Services = () => {
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
-                  <li className="flex items-start py-4 border-t border-n-6">
+                  <li className="flex items-start py-4 border-t border-n-6" key={index}>
                     <Image src={check} width={24} height={24} alt="check" />
                     <p className="ml-4">{item}</p>
                   </li>
